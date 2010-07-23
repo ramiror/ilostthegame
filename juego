@@ -1,5 +1,5 @@
 CUTLINE=19
-if [ $1 != noup ]; then
+if [ "$1" != noup ]; then
 	cd $(dirname $0)
 	svn up
 	$0 noup $*
@@ -8,7 +8,7 @@ else
 	shift;
 fi
 
-if [ $# -eq 1 ]; then
+if [ $# -eq 0 ]; then
 	awk "NR>$CUTLINE" $0
 else
 	echo $* >> $0
@@ -20,4 +20,3 @@ juego
 no tener la culpa
 perder
 trigger
-
