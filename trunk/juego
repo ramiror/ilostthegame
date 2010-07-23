@@ -1,7 +1,18 @@
-if [ $# -eq 0 ]; then
-	awk 'NR>7' $0
+CUTLINE=19
+if [ $1 != noup ]; then
+	cd $(dirname $0)
+	svn up
+	$0 noup $*
+	exit
+else
+	shift;
+fi
+
+if [ $# -eq 1 ]; then
+	awk "NR>$CUTLINE" $0
 else
 	echo $* >> $0
+	svn ci -m "$*"
 fi
 exit
 
