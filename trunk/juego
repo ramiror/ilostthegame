@@ -1,0 +1,11 @@
+if [ $# -eq 0 ]; then
+	awk 'NR>7' $0
+else
+	echo $* >> $0
+fi
+exit
+
+juego
+no tener la culpa
+perder
+trigger
