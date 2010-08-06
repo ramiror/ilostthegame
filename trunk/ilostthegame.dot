@@ -30,6 +30,8 @@ digraph {
 	"la oficina";
 	"dispersion";
 	"ambulancia";
+	"esperar chistes malos";
 
 	ambulancia -> bocina;
+	"esperar chistes malos" -> "chistes malos";
 }
