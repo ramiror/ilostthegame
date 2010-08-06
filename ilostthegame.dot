@@ -1,0 +1,35 @@
+digraph {
+	"no tener la culpa";
+	"perder";
+	"trigger";
+	"get on my horse";
+	"wget";
+	"tener demasiados";
+	"mandar a alguien al frente";
+	"las pausas";
+	"silencio";
+	"frases colgadas";
+	"cachunk";
+	"pensar lo mismo que otra persona";
+	"olvidarse cosas";
+	"observar una coincidencia";
+	"acordarse cosas";
+	"sorpresa";
+	"seppo enojado";
+	"estornudar";
+	"toser";
+	"bocina";
+	"pelotudeces";
+	"pensar en los roles que toma la gente en la oficina";
+	"seppo a secas";
+	"bostezar";
+	"chistes malos";
+	pe [label="pronunciación extraña"];
+	"pulgares bailarines";
+	"estar a un paso";
+	"la oficina";
+	"dispersion";
+	"ambulancia";
+
+	ambulancia -> bocina;
+}
