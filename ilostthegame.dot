@@ -31,7 +31,9 @@ digraph {
 	"dispersion";
 	"ambulancia";
 	"esperar chistes malos";
+	"chiste de Ramiro"
 
 	ambulancia -> bocina;
 	"esperar chistes malos" -> "chistes malos";
+	"chiste de Ramiro" -> "chistes malos";
 }
