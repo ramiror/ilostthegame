@@ -34,6 +34,7 @@ digraph {
 	"esperar chistes malos";
 	"chiste de Ramiro";
 	"unchunk";
+	"andar descalzo";
 
 #
 	"no tener la culpa"                                   -> "perder el juego";
@@ -70,10 +71,13 @@ digraph {
 	"esperar chistes malos"                               -> "perder el juego";
 	"chiste de Ramiro"                                    -> "perder el juego";
 	"unchunk"                                             -> "perder el juego";
+	"andar descalzo"                                      -> "perder el juego";
+	"seppo"                                               -> "perder el juego";
 
 #
 	"ambulancia" -> "bocina";
 	"esperar chistes malos" -> "chistes malos";
 	"chiste de Ramiro" -> "chistes malos";
 	"unchunk" -> "cachunk";
+	"andar descalzo" -> "seppo";
 }
