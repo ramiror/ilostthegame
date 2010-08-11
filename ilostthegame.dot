@@ -1,5 +1,5 @@
 digraph {
-	"perder el juego";
+	pej [label="perder el juego"];
 	"no tener la culpa";
 	"perder";
 	"trigger";
@@ -21,7 +21,7 @@ digraph {
 	"toser";
 	"bocina";
 	"pelotudeces";
-	"pensar en los roles que toma la gente en la oficina";
+	roles [label="pensar en los roles que toma la gente en la oficina"];
 	"seppo a secas";
 	"bostezar";
 	"chistes malos";
@@ -36,48 +36,49 @@ digraph {
 	"unchunk";
 	"andar descalzo";
 	"pin naranja"; 
-	"camiseta de lucas (andando descalzo)";
-
+	camiseta [label="camiseta de lucas (andando descalzo)"];
+  lcdtm [label="la concha de tu madre"];
 
 #
-	"no tener la culpa"                                   -> "perder el juego";
-	"perder"                                              -> "perder el juego";
-	"trigger"                                             -> "perder el juego";
-	"get on my horse"                                     -> "perder el juego";
-	"wget"                                                -> "perder el juego";
-	"tener demasiados"                                    -> "perder el juego";
-	"mandar a alguien al frente"                          -> "perder el juego";
-	"las pausas"                                          -> "perder el juego";
-	"silencio"                                            -> "perder el juego";
-	"frases colgadas"                                     -> "perder el juego";
-	"cachunk"                                             -> "perder el juego";
-	"pensar lo mismo que otra persona"                    -> "perder el juego";
-	"olvidarse cosas"                                     -> "perder el juego";
-	"observar una coincidencia"                           -> "perder el juego";
-	"acordarse cosas"                                     -> "perder el juego";
-	"sorpresa"                                            -> "perder el juego";
-	"seppo enojado"                                       -> "perder el juego";
-	"estornudar"                                          -> "perder el juego";
-	"toser"                                               -> "perder el juego";
-	"bocina"                                              -> "perder el juego";
-	"pelotudeces"                                         -> "perder el juego";
-	"pensar en los roles que toma la gente en la oficina" -> "perder el juego";
-	"seppo a secas"                                       -> "perder el juego";
-	"bostezar"                                            -> "perder el juego";
-	"chistes malos"                                       -> "perder el juego";
-	pe                                                    -> "perder el juego";
-	"pulgares bailarines"                                 -> "perder el juego";
-	"estar a un paso"                                     -> "perder el juego";
-	"la oficina"                                          -> "perder el juego";
-	"dispersion"                                          -> "perder el juego";
-	"ambulancia"                                          -> "perder el juego";
-	"esperar chistes malos"                               -> "perder el juego";
-	"chiste de Ramiro"                                    -> "perder el juego";
-	"unchunk"                                             -> "perder el juego";
-	"andar descalzo"                                      -> "perder el juego";
-	"seppo"                                               -> "perder el juego";
-	"pin naranja"                                         -> "perder el juego";
-	"camiseta de lucas (andando descalzo)"                -> "perder el juego";
+	"no tener la culpa"                -> pej;
+	"perder"                           -> pej;
+	"trigger"                          -> pej;
+	"get on my horse"                  -> pej;
+	"wget"                             -> pej;
+	"tener demasiados"                 -> pej;
+	"mandar a alguien al frente"       -> pej;
+	"las pausas"                       -> pej;
+	"silencio"                         -> pej;
+	"frases colgadas"                  -> pej;
+	"cachunk"                          -> pej;
+	"pensar lo mismo que otra persona" -> pej;
+	"olvidarse cosas"                  -> pej;
+	"observar una coincidencia"        -> pej;
+	"acordarse cosas"                  -> pej;
+	"sorpresa"                         -> pej;
+	"seppo enojado"                    -> pej;
+	"estornudar"                       -> pej;
+	"toser"                            -> pej;
+	"bocina"                           -> pej;
+	"pelotudeces"                      -> pej;
+	roles -> pej;
+	"seppo a secas"                    -> pej;
+	"bostezar"                         -> pej;
+	"chistes malos"                    -> pej;
+	pe                                 -> pej;
+	"pulgares bailarines"              -> pej;
+	"estar a un paso"                  -> pej;
+	"la oficina"                       -> pej;
+	"dispersion"                       -> pej;
+	"ambulancia"                       -> pej;
+	"esperar chistes malos"            -> pej;
+	"chiste de Ramiro"                 -> pej;
+	"unchunk"                          -> pej;
+	"andar descalzo"                   -> pej;
+	"seppo"                            -> pej;
+	"pin naranja"                      -> pej;
+	camiseta                           -> pej;
+	lcdtm                              -> pej;
 
 #
 	"ambulancia" -> "bocina";
@@ -85,5 +86,5 @@ digraph {
 	"chiste de Ramiro" -> "chistes malos";
 	"unchunk" -> "cachunk";
 	"andar descalzo" -> "seppo";
-	"pin naranja" -> "camiseta de lucas (andando descalzo)" -> "andar descalzo";
+	"pin naranja" -> camiseta -> "andar descalzo";
 }
