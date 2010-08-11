@@ -1,2 +1,2 @@
-ilostthegame.png: ilostthegame.dot
-	dot -Tjpg <ilostthegame.dot >ilostthegame.png
+ilostthegame.jpg: ilostthegame.dot
+	dot -Tjpg <ilostthegame.dot >ilostthegame.jpg
