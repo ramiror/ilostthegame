@@ -35,6 +35,9 @@ digraph {
 	"chiste de Ramiro";
 	"unchunk";
 	"andar descalzo";
+	"pin naranja"; 
+	"camiseta de lucas (andando descalzo)";
+
 
 #
 	"no tener la culpa"                                   -> "perder el juego";
@@ -73,6 +76,8 @@ digraph {
 	"unchunk"                                             -> "perder el juego";
 	"andar descalzo"                                      -> "perder el juego";
 	"seppo"                                               -> "perder el juego";
+	"pin naranja"                                         -> "perder el juego";
+	"camiseta de lucas (andando descalzo)"                -> "perder el juego";
 
 #
 	"ambulancia" -> "bocina";
@@ -80,4 +85,5 @@ digraph {
 	"chiste de Ramiro" -> "chistes malos";
 	"unchunk" -> "cachunk";
 	"andar descalzo" -> "seppo";
+	"pin naranja" -> "camiseta de lucas (andando descalzo)" -> "andar descalzo";
 }
