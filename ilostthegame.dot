@@ -38,6 +38,7 @@ digraph {
 	"pin naranja"; 
 	camiseta [label="camiseta de lucas (andando descalzo)"];
   lcdtm [label="la concha de tu madre"];
+	bomberos;
 
 #
 	"no tener la culpa"                -> pej;
@@ -79,9 +80,10 @@ digraph {
 	"pin naranja"                      -> pej;
 	camiseta                           -> pej;
 	lcdtm                              -> pej;
+	bomberos                           -> pej;
 
 #
-	"ambulancia" -> "bocina";
+	bomberos -> "ambulancia" -> "bocina";
 	"esperar chistes malos" -> "chistes malos";
 	"chiste de Ramiro" -> "chistes malos";
 	"unchunk" -> "cachunk";
