@@ -1,4 +1,8 @@
-digraph {
+digraph
+{
+	rankdir="LR";
+	node [shape="note"];
+
 	pej [label="perder el juego"];
 	"no tener la culpa";
 	"perder";
@@ -39,10 +43,11 @@ digraph {
 	camiseta [label="camiseta de lucas (andando descalzo)"];
   lcdtm [label="la concha de tu madre"];
 	bomberos;
+	int [label="interconexión"];
+	asoc [label="asociación"];
 
-#
-	"no tener la culpa"                -> pej;
 	"perder"                           -> pej;
+	"no tener la culpa"                -> pej;
 	"trigger"                          -> pej;
 	"get on my horse"                  -> pej;
 	"wget"                             -> pej;
@@ -81,12 +86,14 @@ digraph {
 	camiseta                           -> pej;
 	lcdtm                              -> pej;
 	bomberos                           -> pej;
+	int                                -> pej;
+	asoc                               -> pej;
 
-#
 	bomberos -> "ambulancia" -> "bocina";
 	"esperar chistes malos" -> "chistes malos";
 	"chiste de Ramiro" -> "chistes malos";
 	"unchunk" -> "cachunk";
 	"andar descalzo" -> "seppo";
 	"pin naranja" -> camiseta -> "andar descalzo";
+	int -> asoc;
 }
