@@ -1,90 +1,90 @@
 digraph
 {
-	rankdir="LR";
-	node [shape="note"];
+	rankdir="LR"
+	node [shape="note"]
 
-	pej [label="perder el juego"];
-	"no tener la culpa";
-	"perder";
-	"trigger";
-	"get on my horse";
-	"wget";
-	"tener demasiados";
-	"mandar a alguien al frente";
-	"las pausas";
-	"silencio";
-	"frases colgadas";
-	"cachunk";
-	"pensar lo mismo que otra persona";
-	"olvidarse cosas";
-	"observar una coincidencia";
-	"acordarse cosas";
-	"sorpresa";
-	"seppo enojado";
-	"estornudar";
-	"toser";
-	"bocina";
-	"pelotudeces";
-	roles [label="pensar en los roles que toma la gente en la oficina"];
-	"seppo a secas";
-	"bostezar";
-	"chistes malos";
-	pe [label="pronunciación extraña"];
-	"pulgares bailarines";
-	"estar a un paso";
-	"la oficina";
-	"dispersion";
-	"ambulancia";
-	"esperar chistes malos";
-	"chiste de Ramiro";
-	"unchunk";
-	"andar descalzo";
-	"pin naranja"; 
-	camiseta [label="camiseta de lucas (andando descalzo)"];
-  lcdtm [label="la concha de tu madre"];
-	bomberos;
-	int [label="interconexión"];
-	asoc [label="asociación"];
+	pej [label="perder el juego"]
+	"no tener la culpa"
+	"perder"
+	"trigger"
+	"get on my horse"
+	"wget"
+	"tener demasiados"
+	"mandar a alguien al frente"
+	"las pausas"
+	"silencio"
+	"frases colgadas"
+	"cachunk"
+	"pensar lo mismo que otra persona"
+	"olvidarse cosas"
+	"observar una coincidencia"
+	"acordarse cosas"
+	"sorpresa"
+	"seppo enojado"
+	"estornudar"
+	"toser"
+	"bocina"
+	"pelotudeces"
+	roles [label="pensar en los roles que toma la gente en la oficina"]
+	"seppo a secas"
+	"bostezar"
+	"chistes malos"
+	pe [label="pronunciación extraña"]
+	"pulgares bailarines"
+	"estar a un paso"
+	"la oficina"
+	"dispersion"
+	"ambulancia"
+	"esperar chistes malos"
+	"chiste de Ramiro"
+	"unchunk"
+	"andar descalzo"
+	"pin naranja" 
+	camiseta [label="camiseta de lucas (andando descalzo)"]
+  lcdtm [label="la concha de tu madre"]
+	bomberos
+	int [label="interconexión"]
+	asoc [label="asociación"]
 
-	"perder"                           -> pej;
-	"no tener la culpa"                -> pej;
-	"trigger"                          -> pej;
-	"get on my horse"                  -> pej;
-	"wget"                             -> pej;
-	"tener demasiados"                 -> pej;
-	"mandar a alguien al frente"       -> pej;
-	"las pausas"                       -> pej;
-	"silencio"                         -> pej;
-	"frases colgadas"                  -> pej;
-	"cachunk"                          -> pej;
-	"pensar lo mismo que otra persona" -> pej;
-	"olvidarse cosas"                  -> pej;
-	"observar una coincidencia"        -> pej;
-	"acordarse cosas"                  -> pej;
-	"sorpresa"                         -> pej;
-	"seppo enojado"                    -> pej;
-	"estornudar"                       -> pej;
-	"toser"                            -> pej;
-	"bocina"                           -> pej;
-	"pelotudeces"                      -> pej;
-	roles -> pej;
-	"seppo a secas"                    -> pej;
-	"bostezar"                         -> pej;
-	"chistes malos"                    -> pej;
-	pe                                 -> pej;
-	"pulgares bailarines"              -> pej;
-	"estar a un paso"                  -> pej;
-	"la oficina"                       -> pej;
-	"dispersion"                       -> pej;
-	"seppo"                            -> pej;
-	lcdtm                              -> pej;
-	asoc                               -> pej;
+	"perder"                           -> pej
+	"no tener la culpa"                -> pej
+	"trigger"                          -> pej
+	"get on my horse"                  -> pej
+	"wget"                             -> pej
+	"tener demasiados"                 -> pej
+	"mandar a alguien al frente"       -> pej
+	"las pausas"                       -> pej
+	"silencio"                         -> pej
+	"frases colgadas"                  -> pej
+	"cachunk"                          -> pej
+	"pensar lo mismo que otra persona" -> pej
+	"olvidarse cosas"                  -> pej
+	"observar una coincidencia"        -> pej
+	"acordarse cosas"                  -> pej
+	"sorpresa"                         -> pej
+	"seppo enojado"                    -> pej
+	"estornudar"                       -> pej
+	"toser"                            -> pej
+	"bocina"                           -> pej
+	"pelotudeces"                      -> pej
+	roles -> pej
+	"seppo a secas"                    -> pej
+	"chistes malos"                    -> pej
+	pe                                 -> pej
+	"pulgares bailarines"              -> pej
+	"estar a un paso"                  -> pej
+	"la oficina"                       -> pej
+	"dispersion"                       -> pej
+	"seppo"                            -> pej
+	lcdtm                              -> pej
+	asoc                               -> pej
 
-	bomberos -> "ambulancia" -> "bocina";
-	"esperar chistes malos" -> "chistes malos";
-	"chiste de Ramiro" -> "chistes malos";
-	"unchunk" -> "cachunk";
-	"andar descalzo" -> "seppo";
-	"pin naranja" -> camiseta -> "andar descalzo";
-	int -> asoc;
+	bomberos -> "ambulancia" -> "bocina"
+	"esperar chistes malos" -> "chistes malos"
+	"chiste de Ramiro" -> "chistes malos"
+	"unchunk" -> "cachunk"
+	"andar descalzo" -> "seppo"
+	"pin naranja" -> camiseta -> "andar descalzo"
+	int -> asoc
+	"bostezar" -> estornudar
 }
