@@ -45,7 +45,7 @@ digraph
 	bomberos;
 	int [label="interconexión"];
 	asoc [label="asociación"];
-/*
+
 	"perder"                           -> pej;
 	"no tener la culpa"                -> pej;
 	"trigger"                          -> pej;
@@ -76,19 +76,10 @@ digraph
 	"estar a un paso"                  -> pej;
 	"la oficina"                       -> pej;
 	"dispersion"                       -> pej;
-	"ambulancia"                       -> pej;
-	"esperar chistes malos"            -> pej;
-	"chiste de Ramiro"                 -> pej;
-	"unchunk"                          -> pej;
-	"andar descalzo"                   -> pej;
 	"seppo"                            -> pej;
-	"pin naranja"                      -> pej;
-	camiseta                           -> pej;
 	lcdtm                              -> pej;
-	bomberos                           -> pej;
-	int                                -> pej;
 	asoc                               -> pej;
-*/
+
 	bomberos -> "ambulancia" -> "bocina";
 	"esperar chistes malos" -> "chistes malos";
 	"chiste de Ramiro" -> "chistes malos";
