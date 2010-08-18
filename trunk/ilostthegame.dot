@@ -40,8 +40,10 @@ digraph
 	"unchunk"
 	"andar descalzo"
 	"pin naranja" 
+	"dot"
+	rc [label="referencias cíclicas"]
 	camiseta [label="camiseta de lucas (andando descalzo)"]
-  lcdtm [label="la concha de tu madre"]
+	lcdtm [label="la concha de tu madre"]
 	bomberos
 	int [label="interconexión"]
 	asoc [label="asociación"]
@@ -78,6 +80,7 @@ digraph
 	"seppo"                            -> pej
 	lcdtm                              -> pej
 	asoc                               -> pej
+	dot                                -> pej
 
 	bomberos -> "ambulancia" -> "bocina"
 	"esperar chistes malos" -> "chistes malos"
@@ -87,4 +90,5 @@ digraph
 	"pin naranja" -> camiseta -> "andar descalzo"
 	int -> asoc
 	"bostezar" -> estornudar
+	rc ->dot
 }
