@@ -41,6 +41,7 @@ digraph
 	"andar descalzo"
 	"pin naranja" 
 	"dot"
+	"sl"
 	rc [label="referencias cíclicas"]
 	camiseta [label="camiseta de lucas (andando descalzo)"]
 	lcdtm [label="la concha de tu madre"]
@@ -81,6 +82,7 @@ digraph
 	lcdtm                              -> pej
 	asoc                               -> pej
 	dot                                -> pej
+	sl                                 -> pej
 
 	bomberos -> "ambulancia" -> "bocina"
 	"esperar chistes malos" -> "chistes malos"
