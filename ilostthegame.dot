@@ -49,6 +49,13 @@ digraph
 	int [label="interconexión"]
 	asoc [label="asociación"]
 	mv [label="Mariano Vicente"]
+	buffalo [label="Buffalo buffalo buffalo buffalo buffalo buffalo buffalo buffalo"]
+	fais [label="Free as in speech"]
+	faib [label="Free as in beer"]
+	faibe [label="Free as in bear"]
+	wb [label="White bear"]
+	comecoco [label="comerse la cabeza"]
+
 	"perder"                           -> pej
 	"no tener la culpa"                -> pej
 	"trigger"                          -> pej
@@ -84,6 +91,8 @@ digraph
 	mv                                 -> pej
 	dot                                -> pej
 	sl                                 -> pej
+	buffalo                            -> pej
+	comecoco                           -> pej
 
 	bomberos -> "ambulancia" -> "bocina"
 	"esperar chistes malos" -> "chistes malos"
@@ -95,4 +104,5 @@ digraph
 	"bostezar" -> estornudar
 	42 -> "acordarse cosas"
 	rc -> dot
+	fais -> faib -> wb                 -> pej
 }
