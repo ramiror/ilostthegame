@@ -55,6 +55,7 @@ digraph
 	faibe [label="Free as in bear"]
 	wb [label="White bear"]
 	comecoco [label="comerse la cabeza"]
+	palabras [label="juego de palabras"]
 
 	"perder"                           -> pej
 	"no tener la culpa"                -> pej
@@ -93,6 +94,7 @@ digraph
 	sl                                 -> pej
 	buffalo                            -> pej
 	comecoco                           -> pej
+	palabras                           -> pej
 
 	bomberos -> "ambulancia" -> "bocina"
 	"esperar chistes malos" -> "chistes malos"
