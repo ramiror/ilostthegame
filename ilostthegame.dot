@@ -106,5 +106,5 @@ digraph
 	"bostezar" -> estornudar
 	42 -> "acordarse cosas"
 	rc -> dot
-	fais -> faib -> wb                 -> pej
+	fais -> faib -> faibe -> wb        -> pej
 }
