@@ -1,12 +1,16 @@
 digraph
 {
-	rankdir="LR"
-	node [shape="note"]
+    rankdir="LR"
+    node [shape="note"]
 
-	pej [label="perder el juego"]
-	nos [label="gente como nosotros"]
-	cdn [label="cuarteto de nos"]
-	uru [label="máxima de las bandas uruguayas"]
+    pej [label="perder el juego"]
+    nos [label="gente como nosotros"]
+    cdn [label="cuarteto de nos"]
+    uru [label="máxima de las bandas uruguayas"]
+    gotit [label="got it"]
+    gotita [label="gotita"]
+    lagotita [label="La Gotita"]
 
-	nos -> cdn -> uru -> pej
+    nos -> cdn -> uru           -> pej
+    gotit -> gotita -> lagotita -> pej
 }
