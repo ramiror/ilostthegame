@@ -13,4 +13,5 @@ digraph
 
     nos -> cdn -> uru           -> pej
     gotit -> gotita -> lagotita -> pej
+    "DK" -> "Danish Kronos" -> "Dekard Cain (del diablo, juego)" -> pej
 }
