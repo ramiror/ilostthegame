@@ -1,0 +1,1 @@
+A script that holds a list of words that trigger the losing of The Game
