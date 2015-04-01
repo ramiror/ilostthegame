@@ -1,7 +1,7 @@
 CUTLINE=19
 if [ "$1" != noup ]; then
     cd $(dirname $0)
-    svn up
+    git pull
     $0 noup $*
     exit
 else
@@ -12,7 +12,8 @@ if [ $# -eq 0 ]; then
     awk "NR>$CUTLINE" $0
 else
     echo $* >> $0
-    svn ci -m "$*"
+    git commit -am "$*"
+    git push
 fi
 exit
 
