@@ -1,18 +1,18 @@
 CUTLINE=19
 if [ "$1" != noup ]; then
-	cd $(dirname $0)
-	svn up
-	$0 noup $*
-	exit
+    cd $(dirname $0)
+    svn up
+    $0 noup $*
+    exit
 else
-	shift;
+    shift;
 fi
 
 if [ $# -eq 0 ]; then
-	awk "NR>$CUTLINE" $0
+    awk "NR>$CUTLINE" $0
 else
-	echo $* >> $0
-	svn ci -m "$*"
+    echo $* >> $0
+    svn ci -m "$*"
 fi
 exit
 
