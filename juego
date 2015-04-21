@@ -12,7 +12,7 @@ if [ $# -eq 0 ]; then
     awk "NR>$CUTLINE" $0
 else
     echo $* >> $0
-    git commit -am "$*"
+    git commit -am "Autoadd: $*"
     git push
 fi
 exit
