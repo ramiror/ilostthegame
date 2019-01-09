@@ -39,7 +39,7 @@ digraph
     "chiste de Ramiro"
     "unchunk"
     "andar descalzo"
-    "pin naranja" 
+    "pin naranja"
     dot
     sl
     rc [label="referencias cíclicas"]
@@ -109,4 +109,5 @@ digraph
     rc -> dot
     fais -> faib -> faibe -> wb        -> pej
     cantito                            -> pej
+    plum -> "teacher plum"             -> pej
 }
