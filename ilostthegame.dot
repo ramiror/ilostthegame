@@ -108,5 +108,5 @@ digraph
     42 -> "acordarse cosas"
     rc -> dot
     fais -> faib -> faibe -> wb        -> pej
-    cantito ->                         -> pej
+    cantito                            -> pej
 }
