@@ -57,6 +57,8 @@ digraph
     comecoco [label="comerse la cabeza"]
     palabras [label="juego de palabras"]
     cantito [label="Cantito / bailecito"]
+    same_english [label="same (English word)"]
+    same_acronym [label="S.A.M.E."]
 
     "perder"                           -> pej
     "no tener la culpa"                -> pej
@@ -109,4 +111,6 @@ digraph
     rc -> dot
     fais -> faib -> faibe -> wb        -> pej
     cantito                            -> pej
+    same_english -> same_acronym       -> pej
+    same_acronym -> ambulancia
 }
