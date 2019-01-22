@@ -109,5 +109,4 @@ digraph
     rc -> dot
     fais -> faib -> faibe -> wb        -> pej
     cantito                            -> pej
-    plum -> "teacher plum"             -> pej
 }
