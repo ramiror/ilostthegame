@@ -59,6 +59,9 @@ digraph
     cantito [label="Cantito / bailecito"]
     same_english [label="same (English word)"]
     same_acronym [label="S.A.M.E."]
+    yogurt [label="¿probaste con un yogurt?"]
+    mousse [label="puede ser mousse"]
+    teacher_plum [label="teacher plum"]
 
     "perder"                           -> pej
     "no tener la culpa"                -> pej
@@ -113,4 +116,6 @@ digraph
     cantito                            -> pej
     same_english -> same_acronym       -> pej
     same_acronym -> ambulancia
+    ciruela -> yogurt -> mousse        -> pej
+    ciruela -> teacher_plum            -> pej
 }
