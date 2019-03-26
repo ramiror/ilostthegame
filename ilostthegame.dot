@@ -62,6 +62,8 @@ digraph
     yogurt [label="¿probaste con un yogurt?"]
     mousse [label="puede ser mousse"]
     teacher_plum [label="teacher plum"]
+    meli [label="mecánica ligera"]
+    muli [label="música ligera"]
 
     "perder"                           -> pej
     "no tener la culpa"                -> pej
@@ -118,4 +120,5 @@ digraph
     same_acronym -> ambulancia
     ciruela -> yogurt -> mousse        -> pej
     ciruela -> teacher_plum            -> pej
+    meli -> muli                       -> pej
 }
