@@ -64,6 +64,11 @@ digraph
     teacher_plum [label="teacher plum"]
     meli [label="mecánica ligera"]
     muli [label="música ligera"]
+    pobreza [label="pobreza"]
+    emp3 [label="3 empanadas"]
+    nomes [label="no llegar a fin de mes"]
+    uruguaya [label="hacer la uruguaya\n(no podés hacer la uruguaya\ndos veces en el mismo lugar)"]
+    truco [label="me hizo un truco!\nme hizo un truco!"]
 
     "perder"                           -> pej
     "no tener la culpa"                -> pej
@@ -121,4 +126,8 @@ digraph
     ciruela -> yogurt -> mousse        -> pej
     ciruela -> teacher_plum            -> pej
     meli -> muli                       -> pej
+    pobreza -> emp3                    -> pej
+    pobreza -> nomes                   -> pej
+    emp3 -> uruguaya                   -> pej
+    uruguaya -> truco                  -> pej
 }
