@@ -69,45 +69,48 @@ digraph
     nomes [label="no llegar a fin de mes"]
     uruguaya [label="hacer la uruguaya\n(no podés hacer la uruguaya\ndos veces en el mismo lugar)"]
     truco [label="me hizo un truco!\nme hizo un truco!"]
+    people
+    people_are [label="People ARE"]
+    dan_stanton [label="Dan Stanton\n(English teacher)"]
 
-    "perder"                           -> pej
-    "no tener la culpa"                -> pej
-    "trigger"                          -> pej
-    "get on my horse"                  -> pej
-    "wget"                             -> pej
-    "tener demasiados"                 -> pej
-    "mandar a alguien al frente"       -> pej
-    "las pausas"                       -> pej
-    "silencio"                         -> pej
-    "frases colgadas"                  -> pej
-    "cachunk"                          -> pej
-    "pensar lo mismo que otra persona" -> pej
-    "olvidarse cosas"                  -> pej
-    "observar una coincidencia"        -> pej
-    "acordarse cosas"                  -> pej
-    "sorpresa"                         -> pej
-    "seppo enojado"                    -> pej
-    "estornudar"                       -> pej
-    "toser"                            -> pej
-    "bocina"                           -> pej
-    "pelotudeces"                      -> pej
+    "perder"                            -> pej
+    "no tener la culpa"                 -> pej
+    "trigger"                           -> pej
+    "get on my horse"                   -> pej
+    "wget"                              -> pej
+    "tener demasiados"                  -> pej
+    "mandar a alguien al frente"        -> pej
+    "las pausas"                        -> pej
+    "silencio"                          -> pej
+    "frases colgadas"                   -> pej
+    "cachunk"                           -> pej
+    "pensar lo mismo que otra persona"  -> pej
+    "olvidarse cosas"                   -> pej
+    "observar una coincidencia"         -> pej
+    "acordarse cosas"                   -> pej
+    "sorpresa"                          -> pej
+    "seppo enojado"                     -> pej
+    "estornudar"                        -> pej
+    "toser"                             -> pej
+    "bocina"                            -> pej
+    "pelotudeces"                       -> pej
     roles -> pej
-    "seppo a secas"                    -> pej
-    "chistes malos"                    -> pej
-    pe                                 -> pej
-    "pulgares bailarines"              -> pej
-    "estar a un paso"                  -> pej
-    "la oficina"                       -> pej
-    "dispersion"                       -> pej
-    "seppo"                            -> pej
-    lcdtm                              -> pej
-    asoc                               -> pej
-    mv                                 -> pej
-    dot                                -> pej
-    sl                                 -> pej
-    buffalo                            -> pej
-    comecoco                           -> pej
-    palabras                           -> pej
+    "seppo a secas"                     -> pej
+    "chistes malos"                     -> pej
+    pe                                  -> pej
+    "pulgares bailarines"               -> pej
+    "estar a un paso"                   -> pej
+    "la oficina"                        -> pej
+    "dispersion"                        -> pej
+    "seppo"                             -> pej
+    lcdtm                               -> pej
+    asoc                                -> pej
+    mv                                  -> pej
+    dot                                 -> pej
+    sl                                  -> pej
+    buffalo                             -> pej
+    comecoco                            -> pej
+    palabras                            -> pej
 
     bomberos -> "ambulancia" -> "bocina"
     "esperar chistes malos" -> "chistes malos"
@@ -119,15 +122,16 @@ digraph
     "bostezar" -> estornudar
     42 -> "acordarse cosas"
     rc -> dot
-    fais -> faib -> faibe -> wb        -> pej
-    cantito                            -> pej
-    same_english -> same_acronym       -> pej
+    fais -> faib -> faibe -> wb         -> pej
+    cantito                             -> pej
+    same_english -> same_acronym        -> pej
     same_acronym -> ambulancia
-    ciruela -> yogurt -> mousse        -> pej
-    ciruela -> teacher_plum            -> pej
-    meli -> muli                       -> pej
-    pobreza -> emp3                    -> pej
-    pobreza -> nomes                   -> pej
-    emp3 -> uruguaya                   -> pej
-    uruguaya -> truco                  -> pej
+    ciruela -> yogurt -> mousse         -> pej
+    ciruela -> teacher_plum             -> pej
+    meli -> muli                        -> pej
+    pobreza -> emp3                     -> pej
+    pobreza -> nomes                    -> pej
+    emp3 -> uruguaya                    -> pej
+    uruguaya -> truco                   -> pej
+    people -> people_are -> dan_stanton -> pej
 }
