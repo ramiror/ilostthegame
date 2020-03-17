@@ -99,4 +99,5 @@ digraph
     emp3 -> uruguaya                    -> pej
     uruguaya -> truco                   -> pej
     people -> people_are -> dan_stanton -> pej
+    atr -> "@davecaos"                  -> pej
 }
